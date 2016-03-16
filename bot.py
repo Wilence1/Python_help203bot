@@ -27,10 +27,6 @@ def listener(messages):
 			bot.send_message(m.chat.id,"here_home_work_for_you")
 		if m.text == "/prak":
 			bot.send_message(m.chat.id,"here_home_work_for_you")
-
-
-
-
 if __name__ == '__main__':
 	bot = telebot.TeleBot(config.token)
 	bot.set_update_listener(listener)
